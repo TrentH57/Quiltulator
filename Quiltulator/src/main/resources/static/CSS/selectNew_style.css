@@ -1,0 +1,68 @@
+@charset "ISO-8859-1";
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-image: url("https://i.ibb.co/L1bTstj/quiltbackground.jpg");
+}
+h1{
+	text-align: center
+}
+#shapeContainer{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	display: flex;
+	width: 75%;
+	Justify-Content: Space-Between;
+}
+
+#toDesign{
+	width:200px;
+	margin-left: auto;
+	margin-right:auto;
+	display: flex;
+	justify-Content: center;
+}
+
+#Triangle{
+	width:0px;
+	height:0px;
+	border-left: 65px solid transparent;
+    border-right: 65px solid transparent;
+    border-bottom: 100px solid black;
+	
+}
+
+#rightRightTriangle{
+	width: 0px;
+    height: 0px;
+    border-bottom: 100px solid black;
+    border-left: 100px solid transparent;
+}
+
+#leftRightTriangle{
+	 width: 0px;
+     height: 0px;
+     border-bottom: 100px solid black;
+     border-right: 100px solid transparent;
+}
+
+#Square{
+	width: 100px;
+	height: 100px;
+	background-color: black;
+}
+
+#Rectangle{
+	width: 50px;
+	height: 100px;
+	background-color: black;
+}
+a{
+text-decoration:none;
+color: black;
+font-weight: bold;
+margin-top: 20px;
+}
